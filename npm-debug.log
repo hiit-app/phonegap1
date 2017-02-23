@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'cordova' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose config Skipping project config: C:\Users\csierra/.npmrc. (matches userconfig)
+5 verbose install initial load of C:\Users\csierra\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\cordova\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\datatables.net\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\datatables.net-dt\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\jquery\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\npm\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\npm-windows-upgrade\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\redis\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\csierra\node_modules\sys-not-throw\package.json
+14 verbose readDependencies loading dependencies from C:\Users\csierra\package.json
+15 verbose install cordova is installed as 6.5.0
+16 silly cache add args [ 'cordova', null ]
+17 verbose cache add spec cordova
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'cordova',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'cordova',
+18 silly cache add   spec: 'C:\\Users\\csierra\\Desktop\\hiit\\jojo\\cordova',
+18 silly cache add   type: 'local' }
+19 silly addLocalTarball shasum (computed) 25c7b5fa447c8404365a74a5f2c3a9b0c05b1b13
+20 verbose addTmpTarball C:\Users\csierra\Desktop\hiit\jojo\cordova not in flight; adding
+21 verbose correctMkdir C:\Users\csierra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+22 verbose addTmpTarball validating metadata from C:\Users\csierra\Desktop\hiit\jojo\cordova
+23 verbose tar unpack C:\Users\csierra\Desktop\hiit\jojo\cordova
+24 verbose tar unpacking to C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c
+25 silly gentlyRm C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c is being purged
+26 verbose gentlyRm don't care about contents; nuking C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c
+27 silly gunzTarPerm modes [ '777', '666' ]
+28 error not a package C:\Users\csierra\Desktop\hiit\jojo\cordova
+29 error addLocal Could not install C:\Users\csierra\Desktop\hiit\jojo\cordova
+30 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c\package.json'
+30 verbose stack     at Error (native)
+31 verbose cwd C:\Users\csierra\Desktop\hiit\jojo
+32 error Windows_NT 6.1.7601
+33 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "cordova"
+34 error node v4.6.0
+35 error npm  v2.15.9
+36 error path C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c\package.json
+37 error code ENOENT
+38 error errno -4058
+39 error syscall open
+40 error enoent ENOENT: no such file or directory, open 'C:\Users\csierra\AppData\Local\Temp\npm-95244-bfacd2fa\unpack-372d163dea1c\package.json'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -4058, true ]
